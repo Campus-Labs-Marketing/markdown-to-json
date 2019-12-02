@@ -3,11 +3,6 @@
 ## Credit:
 The credit goes to [Scott Stanfield](https://github.com/scottstanfield) for creating this module.
 
-## Modification Note:
-Deleted the `delete _metadata['content']` method in `m2j.js` because
-without `_metadata['content']` the JSON object only spits out a preview
-of the content below the YAML front matter chunk
-
 ## Original Readme
 
 Tool for converting YAML Front Matter in Markdown files to JSON files.
