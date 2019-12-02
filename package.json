@@ -1,17 +1,11 @@
 {
   "name": "markdown-to-json",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Extracts YAML front matter from markdown files to a single JSON string or file.",
   "author": {
-    "name": "Scott Stanfield",
-    "email": "scottstanfield@gmail.com"
+		"name": "Ray Milstrey",
+		"email": "rmilstrey@campuslabs.com"
   },
-  "contributors": [
-    {
-      "name": "Capi Etheriel",
-      "email": "barraponto@gmail.com"
-    }
-  ],
   "keywords": [
     "yaml",
     "markdown",
@@ -24,7 +18,7 @@
   "bin": {
     "m2j": "./bin/m2j"
   },
-  "repository": "git://github.com/scottstanfield/markdown-to-json",
+  "repository": "git@github.com:Campus-Labs-Marketing/markdown-to-json.git",
   "engines": {
     "node": "*"
   },

@@ -1,6 +1,14 @@
 # markdown-to-json
 
-[![Build Status](https://travis-ci.org/scottstanfield/markdown-to-json.svg?branch=master)](https://travis-ci.org/scottstanfield/markdown-to-json)
+## Credit:
+The credit goes to [Scott Stanfield](https://github.com/scottstanfield) for creating this module.
+
+## Modification Note:
+Deleted the `delete _metadata['content']` method in `m2j.js` because
+without `_metadata['content']` the JSON object only spits out a preview
+of the content below the YAML front matter chunk
+
+## Original Readme
 
 Tool for converting YAML Front Matter in Markdown files to JSON files.
 
@@ -12,7 +20,7 @@ that you want scanned and processed into a single JSON file, which can
 then be consumed by Angular on the client, cached in a Node server, or
 saved in a NoSQL database.
 
-In addition to moving the YAML to JSON, a few extra elements are created: 
+In addition to moving the YAML to JSON, a few extra elements are created:
 
 -  `iso8601` [formatted][1] timestamp from `date` using [Moment.js][2]
 -  `preview` is the first 70 or so characters of the actual raw Markdown content, with ellipses at the end
@@ -53,7 +61,7 @@ tags:
 
 ---
 
-Ivan Dmitritch, a middle-class man who lived with his family on an income of twelve hundred a year and was very well satisfied with his lot, sat down on the sofa after supper and began reading the newspaper. 
+Ivan Dmitritch, a middle-class man who lived with his family on an income of twelve hundred a year and was very well satisfied with his lot, sat down on the sofa after supper and began reading the newspaper.
 
 ```
 
