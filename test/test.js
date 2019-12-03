@@ -75,11 +75,11 @@ describe('markdown-to-json', function() {
     describe('with content flag enabled', function() {
         it('should return the entire content of a file', function() {
             options.width = 70;
-            options.content = true; 
+            options.content = true;
             var results = m2j.parse(['test/fixtures/bellflower.md'], options);
             var json = fs.readFileSync('test/fixtures/output/bellflower-content.json', 'utf8').trim();
             results.trim().should.equal(json);
         });
-    });    
+    });
 
-}); 
+});

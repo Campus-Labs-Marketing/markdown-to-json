@@ -3,8 +3,8 @@
   "version": "0.5.2",
   "description": "Extracts YAML front matter from markdown files to a single JSON string or file.",
   "author": {
-		"name": "Ray Milstrey",
-		"email": "rmilstrey@campuslabs.com"
+    "name": "Ray Milstrey",
+    "email": "rmilstrey@campuslabs.com"
   },
   "keywords": [
     "yaml",
@@ -13,7 +13,7 @@
   ],
   "main": "./lib/m2j.js",
   "scripts": {
-    "test": "TZ='America/Tijuana' mocha -u bdd"
+    "test": "TZ='Etc/GMT+7' mocha -u bdd"
   },
   "bin": {
     "m2j": "./bin/m2j"
