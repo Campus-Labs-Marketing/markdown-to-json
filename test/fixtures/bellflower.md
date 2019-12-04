@@ -73,4 +73,4 @@ He went on talking, and what he then said will remain engraved on my mind until 
 
 The doctor ceased; Mamma cried, and Papa said some words which I did not catch; then they left the room, and I remained on my knees in the armchair and sobbed, while I heard a strange noise of heavy footsteps and something knocking against the side of the staircase.
 
-They were carrying away Clochette's body. 
+They were carrying away Clochette's body.
